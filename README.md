@@ -16,7 +16,7 @@ Zukünftig soll unser Projekt um eine App erweitert werden, außerdem hoffen wir
 ## Installation
 Da unser Projekt in der Programmiersprache Java geschrieben wurde ist für die Ausführung die Java Runtime Enviroment nötig. Zudem wird da es sich nur um den Sourcecode handelt eine Java DIE benötigt, da wird vorrangig mit der IDE „BlueJ“ gearbeitet haben empfehlen wir ihnen diese ebenfalls zu nutzen. 
 
-## Download
+### Download
 Alle bisher benötigte Downloadlinks:
 https://www.bluej.org/  | 
 https://java.com/de/download/
