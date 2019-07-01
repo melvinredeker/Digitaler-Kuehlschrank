@@ -1,0 +1,11 @@
+
+/**
+ * Beschreiben Sie hier die Klasse Stück.
+ * 
+ * @author (Ihr Name) 
+ * @version (eine Versionsnummer oder ein Datum)
+ */
+public class Stück extends Produkt
+{
+    private double anzahl; 
+}

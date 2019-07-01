@@ -1,0 +1,21 @@
+
+/**
+ * Beschreiben Sie hier die Klasse Benutzer.
+ * 
+ * @author Tristan Lippold 
+ * @version (eine Versionsnummer oder ein Datum)
+ */
+public class Benutzer
+{
+    private Ernaehrungsplan plan;
+    private Speicher speicher;
+    
+    /**
+     * Konstruktor für Objekte der Klasse Benutzer
+     */
+    public Benutzer()
+    {
+        this.plan = new Ernaehrungsplan(5, 5);
+        this.speicher = new Speicher();
+    }
+}

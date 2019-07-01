@@ -1,0 +1,12 @@
+import java.util.ArrayList;
+/**
+ * Beschreiben Sie hier die Klasse Lager.
+ * 
+ * @author (Ihr Name) 
+ * @version (eine Versionsnummer oder ein Datum)
+ */
+public class Lager
+{
+    private ArrayList<Produkt> lager = new ArrayList<Produkt>();
+    
+}

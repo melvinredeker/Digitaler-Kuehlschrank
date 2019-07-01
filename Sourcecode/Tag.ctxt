@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Tag
+comment1.params=pMahlzeiten
+comment1.target=Tag(int)
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Tag\r\n
+comment2.params=
+comment2.target=int\ gibKalorienTag()
+comment2.text=\r\n\ \ Gibt\ Kalorien\ f\u00FCr\ ganzen\ Tag\r\n\ \ \r\n\ \ @return\ Kalorien\ am\ Tag\r\n
+comment3.params=pMahlzeit\ pName\ pMenge\ pEinheit\ pKalorien
+comment3.target=void\ zutatZuMahlzeitHinzuf\u00FCgen(int,\ java.lang.String,\ double,\ java.lang.String,\ int)
+comment3.text=\r\n\ \r\n
+comment4.params=
+comment4.target=int\ gibAnzahlZutatenTag()
+comment5.params=pMahlzeit
+comment5.target=int\ gibAnzahlZutatenMahlzeit(int)
+comment6.params=pMahlzeit\ pZutat
+comment6.target=Produkt\ gibZutatVonMahlzeit(int,\ int)
+numComments=7

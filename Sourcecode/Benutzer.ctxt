@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Benutzer
+comment0.text=\r\n\ @author\ Tristan\ Lippold\ \r\n\ @version\ 2019-05-17\r\n
+comment1.params=
+comment1.target=Benutzer()
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Benutzer\r\n
+comment2.params=
+comment2.target=void\ ernaehrungsplanErstellen()
+comment3.params=pTage
+comment3.target=Produkt[]\ gibZutatenXTage(int)
+comment4.params=
+comment4.target=Speicher\ gibLager()
+comment5.params=pProdukt
+comment5.target=void\ zuLagerHinzuf\u00FCgen(Produkt)
+numComments=6

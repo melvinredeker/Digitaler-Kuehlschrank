@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Speicher
+comment1.params=
+comment1.target=Speicher()
+comment2.params=pProduktname
+comment2.target=boolean\ istVorhanden(java.lang.String)
+comment3.params=
+comment3.target=void\ druckeBestand()
+comment4.params=pProdukt
+comment4.target=void\ zuLagerHinzuf\u00FCgen(Produkt)
+comment5.params=
+comment5.target=int\ gibGroe\u00DFeLager()
+comment6.params=pZahl
+comment6.target=Produkt\ gibZutat(int)
+comment7.params=
+comment7.target=void\ listeUeberarbeiten()
+comment8.params=
+comment8.target=int\ listeUeberabeitetL\u00E4nge()
+comment9.params=pListe\ pWert
+comment9.target=boolean\ lineareSucheIstWertVorhanden(Produkt[],\ java.lang.String)
+comment9.text=\r\n\ Bestimmt,\ ob\ ein\ gesuchter\ Wert\ vorhanden\ ist.\r\n\ \r\n\ @param\ \ \ pWert\ \ \ gesuchter\ Wert\r\n\ \r\n\ @return\ \ wahr,\ wenn\ Wert\ vorhanden\r\n
+numComments=10

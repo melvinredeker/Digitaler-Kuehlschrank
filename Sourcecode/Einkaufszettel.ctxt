@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Einkaufszettel
+comment1.params=pBenutzer
+comment1.target=Einkaufszettel(Benutzer)
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Einkaufszettel\r\n
+comment2.params=pProdukt
+comment2.target=void\ istEingekauft(Produkt)
+comment3.params=pTage
+comment3.target=void\ listeErstellen(int)
+comment4.params=
+comment4.target=void\ listeVergleichLager()
+comment5.params=
+comment5.target=void\ listeUeberarbeiten()
+comment6.params=
+comment6.target=int\ listeUeberabeitetL\u00E4nge()
+comment7.params=pListe\ pWert
+comment7.target=boolean\ lineareSucheIstWertVorhanden(Produkt[],\ java.lang.String)
+comment7.text=\r\n\ Bestimmt,\ ob\ ein\ gesuchter\ Wert\ vorhanden\ ist.\r\n\ \r\n\ @param\ \ \ pWert\ \ \ gesuchter\ Wert\r\n\ \r\n\ @return\ \ wahr,\ wenn\ Wert\ vorhanden\r\n
+comment8.params=
+comment8.target=void\ listeUeberarbeiten2()
+numComments=9

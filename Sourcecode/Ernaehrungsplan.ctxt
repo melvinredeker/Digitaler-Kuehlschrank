@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Ernaehrungsplan
+comment1.params=pZielzufuhr\ pAnzahlMahlzeiten
+comment1.target=Ernaehrungsplan(int,\ int)
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Ernaehrungsplan\r\n
+comment2.params=
+comment2.target=void\ dateiEinlesen()
+comment2.text=\r\n\ \ Liest\ Datei\ ein\r\n
+comment3.params=
+comment3.target=java.lang.String\ fileSelect()
+comment3.text=\r\n\ Bestimmt\ den\ Dateipfad.\r\n\ \r\n\ @return\ \ Pfad\ der\ Dartei\r\n
+comment4.params=pAktuellerTag\ pTage
+comment4.target=int\ gibAnzahlZutatenXTage(int,\ int)
+comment5.params=pAktuellerTag\ pTage
+comment5.target=Produkt[]\ gibBen\u00F6tigteZutatenXTage(int,\ int)
+numComments=6

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Mahlzeit
+comment1.params=
+comment1.target=Mahlzeit()
+comment1.text=\r\n\ \r\n
+comment2.params=
+comment2.target=int\ gibKalorienMahlzeit()
+comment2.text=\r\n\ \r\n
+comment3.params=pName\ pMenge\ pEinheit\ pKalorien
+comment3.target=void\ zutatHinzuf\u00FCgen(java.lang.String,\ double,\ java.lang.String,\ int)
+comment3.text=\r\n\ \r\n
+comment4.params=
+comment4.target=int\ gibAnzahlZutatenMahlzeit()
+comment4.text=\r\n\ \r\n
+comment5.params=pZahl
+comment5.target=Produkt\ gibZutat(int)
+numComments=6

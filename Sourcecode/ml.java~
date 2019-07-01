@@ -1,0 +1,11 @@
+
+/**
+ * Beschreiben Sie hier die Klasse ml.
+ * 
+ * @author (Ihr Name) 
+ * @version (eine Versionsnummer oder ein Datum)
+ */
+public class ml extends Produkt
+{
+    private menge
+}

@@ -1,0 +1,86 @@
+public class Produkt
+{
+    private String marke;
+    private String name;
+    private double preis;
+    private double menge;
+    private String einheit;
+    private int kalorien;
+    
+    public Produkt (String pMarke, String pName, double pPreis, double pMenge, String pEinheit, int pKalorien)
+    {
+        this.marke = pMarke;
+        this.name = pName;
+        this.preis = pPreis;
+        this.menge = pMenge;
+        this.einheit = pEinheit;
+        this.kalorien = pKalorien;
+    }
+    
+    public Produkt (String pName, double pMenge, String pEinheit, int pKalorien)
+    {
+        this.name = pName;
+        this.menge = pMenge;
+        this.einheit = pEinheit;
+        this.kalorien = pKalorien;
+    }
+    
+    public String gibMarke()
+    {
+        return this.marke;
+    }
+    
+    public String gibName()
+    {
+        return this.name;
+    }
+    
+    public double gibPreis()
+    {
+        return this.preis;
+    }
+    
+    public double gibMenge()
+    {
+        return this.menge;
+    }
+    
+    public String gibEinheit()
+    {
+        return this.einheit;
+    }
+    
+    public int gibKalorien()
+    {
+        return this.kalorien;
+    }
+    
+    /**
+     * Reduziert die Menge um eine bestimmte Menge
+     * 
+     * @param   pMengeRed   Menge, um die reduziert wird
+     */
+    public void reduziereMenge(double pMengeRed)
+    {
+        this.menge = this.menge - pMengeRed;
+        if (this.menge < 0)
+        {
+            this.menge = 0;
+        }
+    }
+    
+    /**
+     * Erhoeht die Menge um eine bestimmte Menge
+     * 
+     * @param   pMengeErh   Menge, um die erhoeht wird
+     */
+    public void erhoeheMenge(double pMengeErh)
+    {
+        this.menge = this.menge + pMengeErh;
+    }
+    
+    public void setzeMenge(double pMenge)
+    {
+        this.menge = pMenge;
+    }
+}

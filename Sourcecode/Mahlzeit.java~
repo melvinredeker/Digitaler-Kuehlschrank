@@ -1,0 +1,48 @@
+import java.util.ArrayList;
+/**
+ * Beschreiben Sie hier die Klasse Mahlzeit.
+ * 
+ * @author (Ihr Name) 
+ * @version (eine Versionsnummer oder ein Datum)
+ */
+public class Mahlzeit
+{
+    private ArrayList<Produkt> zutaten;
+    
+    /**
+     * 
+     */
+    public Mahlzeit()
+    {
+        this.zutaten = new ArrayList<Produkt>();
+    }
+    
+    /**
+     * 
+     */
+    public int gibKalorienMahlzeit()
+    {
+        int zaehler = 0;
+        for (int i = 0; i < this.zutaten.size(); i++)
+        {
+            zaehler = zaehler + this.zutaten.get(i).gibKalorien();;
+        }
+        return zaehler;
+    }
+    
+    /**
+     * 
+     */
+    public void zutatHinzufügen(String pName, double pMenge, String pEinheit, int pKalorien)
+    {
+        this.zutaten.add(new Produkt(pName, pMenge, pEinheit, pKalorien));
+    }
+    
+    /**
+     * 
+     */
+    public int gibAnzahlZutatenMahlze()
+    {
+        return this.zutaten.size();
+    }
+}

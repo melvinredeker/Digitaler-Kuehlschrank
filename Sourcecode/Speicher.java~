@@ -1,0 +1,44 @@
+import java.util.ArrayList;
+/**
+ * Beschreiben Sie hier die Klasse Lager.
+ * 
+ * @author (Ihr Name) 
+ * @version (eine Versionsnummer oder ein Datum)
+ */
+public class Speicher
+{
+    private ArrayList<Produkt> lager;
+    
+    public Speicher()
+    {
+        lager = new ArrayList<Produkt>();
+    }
+    
+    public boolean istVorhanden(String pProduktname)
+    {
+        for (int i = 0; i < this.lager.size(); i++)
+        {
+            if (this.lager.get(i).gibName() == pProduktname)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+    
+    public void druckeBestand()
+    {
+        System.out.println("Bestand:");
+        Produkt aktuellesProdukt;
+        for (int i = 0; i < lager.size(); i++)
+        {
+            aktuellesProdukt = this.lager.get(i);
+            System.out.println(aktuellesProdukt.gibName() + " : " + aktuellesProdukt.gibMenge() + " " + aktuellesProdukt.gibEinheit());
+        }
+    }
+    
+    public void zuLagerHinzufügen(Produkt pProdukt)
+    {
+        this.lager.add(pProdukt);
+    }
+}
