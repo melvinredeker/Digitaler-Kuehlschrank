@@ -13,7 +13,7 @@ Bisher ist unser Programm fähig einen Ernährungsplan einzulesen und dem Nutzer
 Zukünftig soll unser Projekt um eine App erweitert werden, außerdem hoffen wir eine Einbindung „richtiger“ Ernährungspläne gewährleisten zu können (evtl. Kooperation mit Fitness-Unternehmen). Zudem erhoffen wir uns einen Barcode-Scanner einzubinden, um die Eingabe von Produkten zu erleichtern. Dies sind allerdings nur einige wenige Ideen, die in unserem Projekt Einzug finden könnten. Wir planen dieses stetig zu verbessern, da uns in der Entwicklungsphase unzählige Optimierungsideen gekommen sind. 
 
 ## Installation
-Da unser Projekt in der Programmiersprache Java geschrieben wurde ist für die Ausführung die Java Runtime Enviroment nötig. Zudem wird da es sich nur um den Sourcecode handelt eine Java DIE benötigt, da wird vorrangig mit der IDE „BlueJ“ gearbeitet haben empfehlen wir ihnen diese ebenfalls zu nutzen. 
+Da unser Projekt in der Programmiersprache Java geschrieben wurde, ist für die Ausführung die Java Runtime Enviroment nötig. Zudem wird, da es sich nur um den Sourcecode handelt, eine Java DIE benötigt. Da wir vorrangig mit der IDE „BlueJ“ gearbeitet haben, empfehlen wir Ihnen diese ebenfalls zu nutzen. 
 
 ### Download
 Alle bisher benötigte Downloadlinks:
